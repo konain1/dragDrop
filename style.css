@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #2d3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#drag{
+    width: 500px;
+    height: 300px;
+    border: 1px solid red;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+}
+.image-view{
+    border: 2px dashed green;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: #f7f8ff;
+}
+.image-view img{
+    width: 100px;
+    margin-top: 25px;
+}
